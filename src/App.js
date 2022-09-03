@@ -15,15 +15,21 @@ export default function App() {
   );
 
   useEffect(
-    () => {
-      document.title = title;
-    },
+    () => {document.title = title;},
     [currentNumber]
   );
 
   return (
     <>
-      <style>{'body { margin: 0; padding: 0; }'}</style>
+      <style>
+        {`
+          body { 
+            margin: 0; 
+            padding: 0; 
+            /* background-color: darkgrey; */
+          }
+        `}
+      </style>
       <Navigation
         chapters={chapters}
         currentNumber={currentNumber}

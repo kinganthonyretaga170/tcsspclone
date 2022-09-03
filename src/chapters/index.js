@@ -4,7 +4,7 @@ import Two from "./Two";
 const chapters = [
   {
     number: 1,
-    title: 'Chapter 1',
+    title: 'Chapter 1: CSS introduction',
     Page: One
   },
   {
