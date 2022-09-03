@@ -1,6 +1,7 @@
 import One from "./One";
 import Two from "./Two";
 import Three from './Three';
+import Four from './Four';
 
 const chapters = [
   {
@@ -17,6 +18,11 @@ const chapters = [
     number: 3,
     title: 'Chapter 3: Creating a responsive animated loading screen',
     Page: Three
+  },
+  {
+    number: 4,
+    title: 'Chapter 4: Creating a responsive web newspaper layout',
+    Page: Four
   }
 ];
 
