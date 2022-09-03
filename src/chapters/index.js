@@ -1,5 +1,6 @@
 import One from "./One";
 import Two from "./Two";
+import Three from './Three';
 
 const chapters = [
   {
@@ -11,6 +12,11 @@ const chapters = [
     number: 2,
     title: 'Chapter 2',
     Page: Two
+  },
+  {
+    number: 3,
+    title: 'Chapter 3: Creating a responsive animated loading screen',
+    Page: Three
   }
 ];
 
