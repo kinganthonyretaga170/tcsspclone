@@ -9,7 +9,7 @@ const chapters = [
   },
   {
     number: 2,
-    title: 'Chapter 2',
+    title: 'Chapter 2: Designing a layout using CSS grids',
     Page: Two
   }
 ];
