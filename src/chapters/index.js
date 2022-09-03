@@ -2,6 +2,7 @@ import One from "./One";
 import Two from "./Two";
 import Three from './Three';
 import Four from './Four';
+import Six from './Six';
 
 const chapters = [
   {
@@ -23,6 +24,11 @@ const chapters = [
     number: 4,
     title: 'Chapter 4: Creating a responsive web newspaper layout',
     Page: Four
+  },
+  {
+    number: 6,
+    title: 'Chapter 6: Creating a profile card',
+    Page: Six
   }
 ];
 
