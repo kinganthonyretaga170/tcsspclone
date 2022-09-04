@@ -1,7 +1,10 @@
 export default function Navigation({ chapters, currentNumber, setCurrentNumber }) {
-  
+  const white = '#f2f2f2';
+  const black = '#262626';
+  const dark = '#1a1a1a';
+
   const listStyle = {
-    backgroundColor: 'darkgrey',
+    backgroundColor: black,
     margin: 0,
     padding: '16px',
     listStyle: 'none',
@@ -12,7 +15,7 @@ export default function Navigation({ chapters, currentNumber, setCurrentNumber }
 
   const buttonStyle = {
     padding: '8px 16px',
-    border: '1px solid black',
+    border: `1px solid ${dark}`,
     borderRadius: '16px',
     cursor: 'pointer'
   };
@@ -29,8 +32,8 @@ export default function Navigation({ chapters, currentNumber, setCurrentNumber }
                 onClick={() => setCurrentNumber(number)}
                 style={{
                   ...buttonStyle,
-                  backgroundColor: isCurrent ? 'black' : 'white',
-                  color: isCurrent ? 'white' : 'black'
+                  backgroundColor: isCurrent ? dark : white,
+                  color: isCurrent ? white : dark
                 }}
               >
                 Chapter {number}

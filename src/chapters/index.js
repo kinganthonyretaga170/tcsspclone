@@ -3,6 +3,7 @@ import Two from "./Two";
 import Three from './Three';
 import Four from './Four';
 import Six from './Six';
+import Seven from './Seven';
 
 const chapters = [
   {
@@ -29,6 +30,11 @@ const chapters = [
     number: 6,
     title: 'Chapter 6: Creating a profile card',
     Page: Six
+  },
+  {
+    number: 7,
+    title: 'Chapter 7: Harnessing the full power of float',
+    Page: Seven
   }
 ];
 
